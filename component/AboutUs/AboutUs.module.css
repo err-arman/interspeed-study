@@ -1,0 +1,6 @@
+.body {
+  height: 25rem;
+  opacity: 6;
+  margin-top: 100px;
+  background-image: linear-gradient(to bottom right, #f73473, #f87d53);
+}

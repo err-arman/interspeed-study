@@ -1,0 +1,9 @@
+.user {
+    display: block;
+    width: 100%;
+    padding: var(--mantine-spacing-md);
+    color: light-dark(var(--mantine-color-black), var(--mantine-color-dark-0));
+    background-color: #FFF;
+    border-radius: 21.829px;
+    box-shadow: 2px 2px 2px 1px rgba(133, 130, 130, 0.2); ;
+  }
