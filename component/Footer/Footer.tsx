@@ -10,31 +10,45 @@ import classes from "./footer.module.css";
 const Footer = () => {
   return (
     <div className={classes.footer}>
-      <Group justify="space-between">
+      <Group p={10} justify="space-between">
         {/* contact */}
         <Group>
-          <IconPhone color={"#FFFFFF"} />
-          <Text c={"#FFFFFF"}>(123) 456-7890</Text>
+          <IconPhone
+            style={{
+              marginTop: "30px",
+            }}
+            color={"#FFFFFF"}
+          />
+          <Text mt={30} c={"#FFFFFF"}>
+            (123) 456-7890
+          </Text>
         </Group>
         {/* terms */}
         <Group>
-          <Text c={"#FFFFFF"}> Team</Text>
-          <Text c={"#FFFFFF"}>Case Studies</Text>
-          <Text c={"#FFFFFF"}>Publications</Text>
+          <Text mt={30} c={"#FFFFFF"}>
+            {" "}
+            Team
+          </Text>
+          <Text mt={30} c={"#FFFFFF"}>
+            Case Studies
+          </Text>
+          <Text mt={30} c={"#FFFFFF"}>
+            Publications
+          </Text>
         </Group>
 
         {/* icons */}
         <Group>
-          <ActionIcon>
+          <ActionIcon mt={30} bg={"#77c4e7"}>
             <IconBrandLinkedin />{" "}
           </ActionIcon>
-          <ActionIcon>
+          <ActionIcon mt={30} bg={"#77c4e7"}>
             <IconBrandFacebook />{" "}
           </ActionIcon>
-          <ActionIcon>
+          <ActionIcon mt={30} bg={"#77c4e7"}>
             <IconBrandInstagram />{" "}
           </ActionIcon>
-          <ActionIcon>
+          <ActionIcon mt={30} bg={"#77c4e7"}>
             <IconBrandYoutube />{" "}
           </ActionIcon>
         </Group>
